@@ -11,9 +11,9 @@
 
 ### MySQL(Docker)
 
-|       操作系统版本       |  Docker版本  |  MySQL容器版本  |  PhpMyAdmin容器版本  |    VM配置    |  VM数量  |
-|:------------------:|:----------:|:-----------:|:----------------:|:----------:|:------:|
-| CentOS Stream 9 | docker-ce-20.10.21      | xxx   | phpmyadmin:latest            | 8C32G10T   | 1    |
+|      操作系统版本   |      Docker版本       |  MySQL容器版本   |  PhpMyAdmin容器版本  |    VM配置    |  VM数量  |
+|:----------------:|:-------------------:|:------------:|:----------------:|:----------:|:------:|
+| CentOS Stream 9  | docker-ce-20.10.21 | mysql:latest | phpmyadmin:latest            | 8C32G10T   | 1    |
 
 ### MySQL(M-S)
 
