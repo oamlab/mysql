@@ -11,15 +11,15 @@
 
 ### MySQL(Docker)
 
-|      操作系统版本   |      Docker版本       |  MySQL容器版本   |  PhpMyAdmin容器版本  |    VM配置    |  VM数量  |
-|:----------------:|:-------------------:|:------------:|:----------------:|:----------:|:------:|
-| CentOS Stream 9  | docker-ce-20.10.21 | mysql:latest | phpmyadmin:latest            | 8C32G10T   | 1    |
+|      操作系统版本   |      Docker版本    |  MySQL容器版本 |   PhpMyAdmin容器版本 |  VM配置(qcow2) | VM数量 |
+|:----------------:|:------------------:|:------------:|:------------------:|:--------------:|:----:|
+| CentOS Stream 9  | docker-ce-20.10.21 | mysql:latest | phpmyadmin:latest  |    8C32G10T    |  1   |
 
 ### MySQL(M-S)
 
-|   操作系统版本       |      Docker版本       |             MySQL版本            |   PhpMyAdmin容器版本  |     VM配置    |   VM数量  |
-|:------------------:|:-------------------:|:--------------------------------:|:-------------------:|:------------:|:--------:|
-|  CentOS Stream 9   | docker-ce-20.10.21  | MySQL Community Server 8.4.2 LTS |  phpmyadmin:latest  |   8C32G10T   |    2     |
+|   操作系统版本       |      Docker版本       |             MySQL版本            |   PhpMyAdmin容器版本  |  VM配置(qcow2) |  VM数量  |
+|:------------------:|:-------------------:|:--------------------------------:|:-------------------:|:-------------:|:-------:|
+|  CentOS Stream 9   | docker-ce-20.10.21  | MySQL Community Server 8.4.2 LTS |  phpmyadmin:latest  |   8C32G10T    |    2    |
 
 - 各节点之间的距离
 
@@ -37,9 +37,9 @@
 
 ### MySQL(M-M-M-M-M)
 
-|     操作系统版本  |      Docker版本       |             MySQL版本           |   PhpMyAdmin容器版本  |      VM配置     |   VM数量  |
-|:---------------:|:-------------------:|:-------------------------------:|:-------------------:|:--------------:|:---------:|
-| CentOS Stream 9 | docker-ce-20.10.21  |   MySQL NDB Cluster 8.4.2 LTS   |  phpmyadmin:latest  |    8C32G10T    |     5     |
+|     操作系统版本  |      Docker版本       |             MySQL版本           |   PhpMyAdmin容器版本  |   VM配置(qcow2)  |   VM数量  |
+|:---------------:|:-------------------:|:-------------------------------:|:-------------------:|:---------------:|:---------:|
+| CentOS Stream 9 | docker-ce-20.10.21  |   MySQL NDB Cluster 8.4.2 LTS   |  phpmyadmin:latest  |    8C32G10T     |     5     |
 
 - 各节点之间的距离
 
