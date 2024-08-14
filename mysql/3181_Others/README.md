@@ -11,22 +11,22 @@
 
 ### [MySQL(Docker)](./README.MySQL.Docker.md)
 
-|      操作系统版本   |      Docker版本    |  MySQL容器版本 |   PhpMyAdmin容器版本 |  VM配置(qcow2) | VM数量 |
-|:----------------:|:------------------:|:------------:|:------------------:|:--------------:|:----:|
-| CentOS Stream 9  | docker-ce-20.10.21 | mysql:latest | phpmyadmin:latest  |    8C32G10T    |  1   |
+|                                             操作系统版本                                              |                                                Docker版本                                                 |                   MySQL容器版本                    |                      PhpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
+|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------------:|:-----------:|:----:|
+| [CentOS Stream 9](https://mirror.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso) | [docker-ce-27.1.2](https://mirror.tuna.tsinghua.edu.cn/docker-ce/linux/centos/9/x86_64/stable/Packages) | [mysql:latest](https://hub.docker.com/_/mysql) | [phpmyadmin:latest](https://hub.docker.com/_/phpmyadmin) |  8C32G10T   |  1   |
 
 ### [MySQL(M-S)](./README.MySQL.M-S.md)
 
-|   操作系统版本       |      Docker版本       |             MySQL版本            |   PhpMyAdmin容器版本  |  VM配置(qcow2) |  VM数量  |
-|:------------------:|:-------------------:|:--------------------------------:|:-------------------:|:-------------:|:-------:|
-|  CentOS Stream 9   | docker-ce-20.10.21  | MySQL Community Server 8.4.2 LTS |  phpmyadmin:latest  |   8C32G10T    |    2    |
+|                                             操作系统版本                                              |                                                Docker版本                                                 |                                  MySQL版本                                  |                      PhpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
+|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------------------:|:-----------:|:----:|
+| [CentOS Stream 9](https://mirror.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso) | [docker-ce-27.1.2](https://mirror.tuna.tsinghua.edu.cn/docker-ce/linux/centos/9/x86_64/stable/Packages) | [MySQL Community Server 8.4.2 LTS](https://dev.mysql.com/downloads/mysql) | [phpmyadmin:latest](https://hub.docker.com/_/phpmyadmin) |  8C32G10T   |  2   |
 
 - 各节点之间的网络通信距离
 
 |      节点名    | MySQL-node-01 | MySQL-node-02 |
 |:-------------:|:-------------:|:-------------:|
-| MySQL-node-01 |      0ms      |     10ms      |
-| MySQL-node-02 |     10ms      |      0ms      |
+| MySQL-node-01 |     0.1ms     |     10ms      |
+| MySQL-node-02 |     10ms      |     0.1ms     |
 
 - 各节点的角色
 
@@ -37,19 +37,19 @@
 
 ### [MySQL(M-M-M-M-M)](./README.MySQL.M-M-M-M-M.md)
 
-|     操作系统版本  |      Docker版本       |             MySQL版本           |   PhpMyAdmin容器版本  |   VM配置(qcow2)  |   VM数量  |
-|:---------------:|:-------------------:|:-------------------------------:|:-------------------:|:---------------:|:---------:|
-| CentOS Stream 9 | docker-ce-20.10.21  |   MySQL NDB Cluster 8.4.2 LTS   |  phpmyadmin:latest  |    8C32G10T     |     5     |
+|                                             操作系统版本                                              |                                                Docker版本                                                 |                                MySQL版本                                 |                      PhpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
+|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:--------------------------------------------------------:|:-----------:|:----:|
+| [CentOS Stream 9](https://mirror.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso) | [docker-ce-27.1.2](https://mirror.tuna.tsinghua.edu.cn/docker-ce/linux/centos/9/x86_64/stable/Packages) | [MySQL NDB Cluster 8.4.2 LTS](https://dev.mysql.com/downloads/cluster) | [phpmyadmin:latest](https://hub.docker.com/_/phpmyadmin) |  8C32G10T   |  5   |
 
 - 各节点之间的网络通信距离
 
 |      节点名    | MySQL-node-01 | MySQL-node-02 | MySQL-node-03 | MySQL-node-04 | MySQL-node-05 |
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| MySQL-node-01 |      0ms      |     200ms     |     200ms     |     200ms     |     200ms     |
-| MySQL-node-02 |     200ms     |     0ms       |     200ms     |     200ms     |     200ms     |
-| MySQL-node-03 |     200ms     |     200ms     |      0ms      |     200ms     |     200ms     |
-| MySQL-node-04 |     200ms     |     200ms     |     200ms     |      0ms      |     200ms     |
-| MySQL-node-05 |     200ms     |     200ms     |     200ms     |     200ms     |     0ms       |
+| MySQL-node-01 |     0.1ms     |     10ms      |     200ms     |     200ms     |     200ms     |
+| MySQL-node-02 |     10ms      |     0.1ms     |     200ms     |     200ms     |     200ms     |
+| MySQL-node-03 |     200ms     |     200ms     |     0.1ms     |     200ms     |     200ms     |
+| MySQL-node-04 |     200ms     |     200ms     |     200ms     |     0.1ms     |     200ms     |
+| MySQL-node-05 |     200ms     |     200ms     |     200ms     |     200ms     |     0.1ms     |
 
 - 各节点的角色
 
