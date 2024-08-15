@@ -11,13 +11,13 @@
 
 ### [MySQL(Docker)](./README.MySQL.Docker.md)
 
-|                                             操作系统版本                                              |                                                Docker版本                                                 |                   MySQL容器版本                    |                      PhpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
+|                                             操作系统版本                                              |                                                Docker版本                                                 |                   MySQL容器版本                    |                      phpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
 |:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------------:|:-----------:|:----:|
 | [CentOS Stream 9](https://mirror.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso) | [docker-ce-27.1.2](https://mirror.tuna.tsinghua.edu.cn/docker-ce/linux/centos/9/x86_64/stable/Packages) | [mysql:latest](https://hub.docker.com/_/mysql) | [phpmyadmin:latest](https://hub.docker.com/_/phpmyadmin) |  8C32G10T   |  1   |
 
 ### [MySQL(M-S)](./README.MySQL.M-S.md)
 
-|                                             操作系统版本                                              |                                                Docker版本                                                 |                                  MySQL版本                                  |                      PhpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
+|                                             操作系统版本                                              |                                                Docker版本                                                 |                                  MySQL版本                                  |                      phpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
 |:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------------------:|:-----------:|:----:|
 | [CentOS Stream 9](https://mirror.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso) | [docker-ce-27.1.2](https://mirror.tuna.tsinghua.edu.cn/docker-ce/linux/centos/9/x86_64/stable/Packages) | [MySQL Community Server 8.4.2 LTS](https://dev.mysql.com/downloads/mysql) | [phpmyadmin:latest](https://hub.docker.com/_/phpmyadmin) |  8C32G10T   |  2   |
 
@@ -37,7 +37,7 @@
 
 ### [MySQL(M-M-M-M-M)](./README.MySQL.M-M-M-M-M.md)
 
-|                                             操作系统版本                                              |                                                Docker版本                                                 |                                MySQL版本                                 |                      PhpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
+|                                             操作系统版本                                              |                                                Docker版本                                                 |                                MySQL版本                                 |                      phpMyAdmin容器版本                      | VM配置(qcow2) | VM数量 |
 |:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:--------------------------------------------------------:|:-----------:|:----:|
 | [CentOS Stream 9](https://mirror.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso) | [docker-ce-27.1.2](https://mirror.tuna.tsinghua.edu.cn/docker-ce/linux/centos/9/x86_64/stable/Packages) | [MySQL NDB Cluster 8.4.2 LTS](https://dev.mysql.com/downloads/cluster) | [phpmyadmin:latest](https://hub.docker.com/_/phpmyadmin) |  8C32G10T   |  5   |
 
