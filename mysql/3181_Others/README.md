@@ -1,7 +1,7 @@
 - OAMlab
 - https://github.com/oamlab
 
-# MySQL的几种部署结构(Several deployment structures of MySQL)
+# MySQL的几种部署结构和解决方案目标(Several deployment structures and solutions for MySQL)
 
 ---
 

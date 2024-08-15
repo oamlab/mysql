@@ -37,10 +37,7 @@
 ## 📚 当前分享内容：
 
 - [目录](./mysql)
-- [MySQL的几种部署结构](./mysql/3181_Others/README.md)
-  - [MySQL(Docker)](./mysql/3181_Others/README.MySQL.Docker.md)
-  - [MySQL(M-S)](./mysql/3181_Others/README.MySQL.M-S.md)
-  - [MySQL(M-M-M-M-M)](./mysql/3181_Others/README.MySQL.M-M-M-M-M.md)
+- [MySQL的几种部署结构和解决方案](./mysql/3181_Others/README.md)
 - ...
 - ..
 - .
