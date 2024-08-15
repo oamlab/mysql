@@ -35,10 +35,7 @@
 ## 📚 Currently Sharing Content：
 
 - [Directory](./mysql)
-- [Several deployment structures of MySQL](./mysql/3181_Others/README.md)
-  - [MySQL(Docker)](./mysql/3181_Others/README.MySQL.Docker.md)
-  - [MySQL(M-S)](./mysql/3181_Others/README.MySQL.M-S.md)
-  - [MySQL(M-M-M-M-M)](./mysql/3181_Others/README.MySQL.M-M-M-M-M.md)
+- [Several deployment structures and solutions for MySQL](./mysql/3181_Others/README.md)
 - ...
 - ..
 - .
