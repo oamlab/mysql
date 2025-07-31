@@ -25,8 +25,8 @@
 ## 🔋 仓库联系人
 | 姓名						 |联系方式|
 |----------|-----------------|
-| **xxx**  | xxx@xxx.com      |
-| **xxx**  | xxx@xxx.com      |
+| **xxx**  | example@example.localhost      |
+| **xxx**  | example@example.localhost      |
 
 ## 🔒 背景
 - XXX
