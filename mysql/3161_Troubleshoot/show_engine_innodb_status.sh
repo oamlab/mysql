@@ -1,4 +1,7 @@
 #/bin/bash
+## author: Jerry
+## email:  xumingyu528@gmail.com
+##
 
 
 
